@@ -91,7 +91,7 @@ permessage-deflate in production, it is worthwhile to set up a test
 representative of your workload and ensure Node.js/zlib will handle it with
 acceptable performance and memory usage.
 
-Tuning of permessage-deflate can be done via the options defined below. You can
+Tuning off permessage-deflate can be done via the options defined below. You can
 also use `zlibDeflateOptions` and `zlibInflateOptions`, which is passed directly
 into the creation of [raw deflate/inflate streams][node-zlib-deflaterawdocs].
 
